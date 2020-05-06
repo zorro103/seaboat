@@ -1,0 +1,12 @@
+/*
+
+ ATTTENTION TRES IMPORTANT : IL FAUT INDIQUER LE NOM DU THEME PARENT (twentytwenty en l'occurence) SUR LEQUEL ON VA APPLIQUER NOTRE THEME ENFANT : theme-seaboat
+
+ Template:     twentytwenty
+*/
+
+/* JE PEUX AJOUTER MON CODE CSS EN PLUS DE CELUI DU THEME PARENT */
+
+.site-title a {
+    color: red;
+}
