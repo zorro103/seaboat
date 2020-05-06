@@ -1,5 +1,3 @@
-# seaboat
+# Projet SeaBoat
 
-Code Wordpress
-
-theme-seaboat
+Code pour thème Wordpress : theme-seaboat
