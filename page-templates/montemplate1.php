@@ -13,7 +13,7 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>TITRE1</h1>
+    <h1>Mon template</h1>
     <div id="app">
     {{ message }}
     </div>
