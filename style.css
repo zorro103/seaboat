@@ -118,3 +118,30 @@ article img {
  font-size: 40px;
 }
 
+
+
+/*CSS Template 3*/
+
+.pg{
+  background-image: linear-gradient(to right, #083F88 30%,#3C80CA);
+  width: 50%;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.pg section {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+.pg .col-1{
+  width: 50%;
+
+}
+
+.pg .col-2{
+  width: 50%;
+}
+
+/* Fin CSS Template 3*/
