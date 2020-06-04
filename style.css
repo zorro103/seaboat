@@ -11,3 +11,138 @@
     color: red;
 }
 
+html, body {
+    background-color: white;
+   width:100%;
+   height:100%;
+   margin:0;
+   padding:0;
+   margin-right:0;
+   margin-left:0;
+  /* => 1rem */
+}
+
+* {
+   box-sizing: border-box;
+}
+
+ 
+.site-title a {
+   color: red;
+}
+
+
+  
+ .container1 img{
+   background-size:
+    cover;
+    position: relative;
+
+     object-fit:cover;width:
+      100%;margin:0;
+    
+ }
+ .centered {
+   position: absolute;
+   top:20%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+ }
+
+ .container
+ {  
+      margin: auto;
+     display:flex;
+     justify-content: center;
+     width: 100%;
+    flex-wrap: wrap;
+
+    
+     
+ }
+.container article{
+ width:calc(100%/3);
+}
+article img {
+
+ width:100%;
+ height:30vh;
+ object-fit:cover;
+}
+.container p
+{
+  width: 600px; 
+  font-size:20px;
+}
+.container >*
+{
+ padding:30px;
+}
+
+     
+.gallery
+{
+ width: 50%;
+ min-height: 50vh;
+ overflow: hidden;
+ display:flex;
+
+}
+.words{
+
+
+ box-shadow: inset 0 0 0 5px rgba(255,255,255,0.1);
+ color: white;
+ text-align: center;
+ align-items: center;
+ /* Safari transitionend event.propertyName === flex */
+ /* Chrome + FF transitionend event.propertyName === flex-grow */
+ transition:
+   font-size 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11),
+   flex 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11),
+   background 0.2s;
+ font-size: 20px;
+ background-size: cover;
+ background-position: center;
+ flex: 1;
+ justify-content: center;
+ display: flex;
+ flex-direction: column;
+}
+.words p:nth-child(2) {
+ font-size: 90em;
+}
+
+.words.open {
+ flex: 70;
+ font-size: 40px;
+}
+
+
+
+/*CSS Template 3*/
+
+.pg{
+  background-image: linear-gradient(to right, #083F88 30%,#3C80CA);
+  width: 50%;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.pg section {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+.pg .col-1{
+  width: 50%;
+
+}
+
+.pg .col-2{
+  width: 50%;
+}
+
+/* Fin CSS Template 3*/
+>>>>>>> dff3276307c9458035e722acfc8ae183e6882f16
