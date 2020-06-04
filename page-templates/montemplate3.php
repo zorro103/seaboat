@@ -9,7 +9,7 @@ get_header();
 
 <div class="pg">
 
-    <section>
+    <section class="paire">
         <div class="col-1">
             <h1>SeaBoat</h1>
             <p>Location de Bateaux</p>
@@ -18,10 +18,8 @@ get_header();
         <img src="<?php echo get_stylesheet_directory_uri(); ?>../assets/img/asset_seaboat.png" alt="illu"> 
         </div>
     </section>
-
-    <h2>Présentation</h3>
-
-    <section>
+        <h2>Présentation</h3>
+    <section class="impaire">
     <div class="col-1">
         <h3>Nos Bateaux</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur hic inventore at assumenda neque delectus aut ratione sit nihil? Atque, unde excepturi accusantium sapiente accusamus modi beatae voluptatem quasi in?</p>
@@ -31,17 +29,17 @@ get_header();
     </div>
     </section>
     
-    <section>
+    <section class="paire">
     <div class="col-1">
-        <h3>Nos Skippers</h3>
         <img src="<?php echo get_stylesheet_directory_uri(); ?>../assets/img/ph2.jpg" width="300" height="300"/>
     </div>
     <div class="col-2">
+        <h3>Nos Skippers</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur hic inventore at assumenda neque delectus aut ratione sit nihil? Atque, unde excepturi accusantium sapiente accusamus modi beatae voluptatem quasi in?</p>
     </div>
     </section>
 
-    <section>
+    <section class="impaire">
         <div class="col-1">
             <h3>SeaBoat</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur hic inventore at assumenda neque delectus aut ratione sit nihil? Atque, unde excepturi accusantium sapiente accusamus modi beatae voluptatem quasi in?</p>
@@ -51,13 +49,13 @@ get_header();
         </div>
     </section>
 
-    <section>
+    <section class="paire">
         <div class="col-1">
-            <h3>Francois Saccoman</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur hic inventore at assumenda neque delectus aut ratione sit nihil? Atque, unde excepturi accusantium sapiente accusamus modi beatae voluptatem quasi in?</p>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>../assets/img/ph2.jpg" width="300" height="300"/>
         </div>
         <div class="col-2">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>../assets/img/ph2.jpg" width="300" height="300"/>
+            <h3>Francois Saccoman</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur hic inventore at assumenda neque delectus aut ratione sit nihil? Atque, unde excepturi accusantium sapiente accusamus modi beatae voluptatem quasi in?</p>
         </div>
     </section>
 </div>

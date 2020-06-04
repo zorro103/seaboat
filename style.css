@@ -129,19 +129,31 @@ article img {
   margin: 0 auto;
 }
 
+.pg h2{
+  text-align: center;
+}
+
 .pg section {
   width: 90%;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
 }
-.pg .col-1{
-  width: 50%;
 
+.pg .col-1{
+  width: 48%;
 }
 
 .pg .col-2{
-  width: 50%;
+  width: 48%;
+}
+
+.pg img{
+  width: 100%;
+}
+
+.pg footer{
+  background-image: linear-gradient(to right, rgb(13, 50, 99),rgb(24, 85, 150));
 }
 
 /* Fin CSS Template 3*/
