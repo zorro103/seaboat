@@ -15,7 +15,7 @@ get_header();
             <p>Location de Bateaux</p>
         </div>
         <div class="col-2">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>../assets/img/asset_seaboat.png" alt="illu"> 
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>./assets/img/asset_seaboat.png" alt="illu"> 
         </div>
     </section>
         <h2>Présentation</h3>
